@@ -75,3 +75,7 @@ footer {
 .indentation {
     margin-top: 2.5rem;
 }
+
+#name h2 {
+    font-size:30px;
+}

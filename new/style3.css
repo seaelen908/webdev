@@ -1,0 +1,18 @@
+header h1 {
+    color:#D29492;
+    padding-top: 1.5em; 
+}
+
+article {
+    padding: 0.5em 2em;
+}
+
+article h2 {
+    padding-left: 3.5em;
+    color: #D29492;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 500;  
+}
