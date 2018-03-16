@@ -1,0 +1,58 @@
+.rozha-one {
+    font-family: 'Rozha One', serif;
+  }
+  
+  .roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .upper {
+    text-transform: uppercase;
+  }
+  
+  .blue {
+    color: #337ab7;
+  }
+   
+  .grey {
+    color: #8a8484;
+  }
+  /*//////////HEADER//////////*/
+  header {
+    height: 90vh;
+    background-image: url('../img/header.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  
+  #headers-wrapper {
+    margin-top: 19rem;
+  }
+  
+  header h1 {
+    color: #fff;
+    text-align: center;
+  }
+  
+  header h2 {
+    margin-top: -6.9rem;
+    font-size: 1rem;  
+  }
+  /*//////////HEADER END//////////*/
+  
+  /*//////////QUOTE//////////*/
+  #quote-wrapper {
+    margin: 0 auto;
+    width: 95.7%;
+  }
+  
+  #quote h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  
+  #quote h3 {
+    font-size: .8rem;
+    text-align: center;
+  }
+  /*//////////QUOTE END//////////
