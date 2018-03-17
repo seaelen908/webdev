@@ -56,3 +56,47 @@
     text-align: center;
   }
   /*//////////QUOTE END//////////
+
+  /*ARTICLE*/
+  
+  .article_1 {
+    background-position: center;
+    width: 90%;
+    margin: 4.6rem 3.3rem;       
+  }
+  
+  p {
+    text-align: center;
+    padding: 0 17rem;
+    font-size: 1.2rem;
+  }
+
+  .lite-grey {
+    color: #AEADAD 
+  }
+
+ .article a {
+    text-align: center;
+    font-size: 1.0rem;
+    text-decoration: underline;
+    padding: 0.2rem 30.9rem;
+    /*position: center;*/
+  }
+  /*ARTICLE AND*/
+
+  /*video*/
+
+  /*#video {
+    background-position: center;
+    background-size: cover; 
+  }*/
+
+  iframe {
+    /*background-position: center;*/
+    padding: 1.3em 0;
+    margin: 2rem 1.1rem;
+    width: 97%;     
+    background-position-y: center;
+  }
+   
+
