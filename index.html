@@ -15,7 +15,7 @@
 </head>
 <body>
   <div class="container">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -25,7 +25,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Logo">
+          </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -43,7 +45,7 @@
       <header class="col-xs-12">
         <div id="headers-wrapper">
           <h1 class="rozha-one">Beautiful Escape</h1>
-          <h2 class="roboto upper blue">Your</h2>
+          <h2 class="roboto upper blue wide small-text">Your</h2>
         </div>        
       </header>
     </div>
@@ -51,21 +53,21 @@
       <section class="col-xs-12" id="quote">
         <div id="quote-wrapper"> 
           <h2 class="rozha-one grey">Serfing is a most blissful exeperience you can have on this planet, a taste of haven</h2>
-          <h3 class="descriptor roboto upper">John Mccarthy</h3>
+          <h3 class="descriptor roboto upper wide">John Mccarthy</h3>
         </div>  
       </section>
     </div>
     <div class="row">
-      <section class="col-xs-12 article">
+      <section class="col-xs-12 article text-center" id="first-article">
         <div class="col-xs-12">          
           <img class="article_1" src="img/surfer.jpg" alt="serfing">
         </div>
         <div class="col-xs-12">
-          <p class="roboto lite-grey">My better understanding the various aspects of surfing, you will improve faster 
+          <p class="roboto light-grey">My better understanding the various aspects of surfing, you will improve faster 
           and have more fun in the water.</p>
         </div>
         <div class="col-xs-12">
-          <a class="roboto grey upper underlined-link" href="#">Read more</a>
+          <a class="roboto grey upper underlined-link wide small-text underlined-link" href="#">Read more</a>
         </div>
       </section>
     </div>
@@ -75,26 +77,26 @@
       </section>
     </div>
     <div class="row">
-      <section class="col-xs-12" id="shop">
+      <section class="col-xs-12 text-center" id="shop">
         <div class="col-xs-12">
-          <a href="" alt="">shop</a>
+          <a class="wide small-text" href="#" title="Shop Page">shop</a>
         </div>
         <div class="col-xs-12">
-          <h2>Surfboards</h2>
+          <h2 class="rozha-one">Surfboards</h2>
+        </div>
+        <div class="col-xs-12" id="product-img">
+          <img src="img/board-one.png" alt="Surf Board">
         </div>
         <div class="col-xs-12">
-          <img src="" alt="">
+          <h4 class="light-grey wide roboto">funboards</h4>
+          <h2 class="rozha-one">Chilli Rare Bird</h2>
+          <p class="cost">$890</p>
         </div>
         <div class="col-xs-12">
-          <h4>funboards</h4>
-          <h2>Chilli Rare Bird</h2>
-          <p>$890</p>
+          <a href="#" class="buy roboto upper wide dark-grey small-text">buy</a>
         </div>
         <div class="col-xs-12">
-          <a href="">buy</a>
-        </div>
-        <div class="col-xs-12">
-          <a href="">show all</a>
+          <a class="roboto upper wide underlined-link dark-grey small-text" href="#">Show All</a></div>
         </div>
       </section>
     </div>
@@ -141,10 +143,14 @@
           <p class="lite-grey roboto">By better understanding the various aspects of surfing,you will improve faster and 
           have more fun in the water.</p>
         </div>
-        <form action="">
-          <input type="email" placeholder="your e-mail">
-          <input type="submit">
-        </form>
+        <div class="col-xs-12">
+          <form action="">
+            <input type="email" placeholder=" YOUR E-MAIL">
+            <button>
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </button>
+          </form>
+        </div>
       </section>
     </div>
     <div class="row">
