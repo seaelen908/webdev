@@ -109,7 +109,7 @@ padding: 0 2rem;
 }
 
 .article a {
-  text-align: center;
+  /*text-align: center;*/
   font-size: 1.0rem;
 }
 /*//////////ARTICLE END//////////*/
@@ -118,6 +118,7 @@ padding: 0 2rem;
 #video iframe {
   width: 100%;
 }
+
 /*//////////VIDEO END//////////*/
 
 /*//////////SHOP//////////*/
@@ -145,6 +146,41 @@ p.cost {
 }
 /*//////////SHOP END//////////*/
 
+/*/////////ARTICLE 2///////////*/
+
+#second-article img {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 2.5rem;
+}
+
+#second-article p {
+  font-size: 1.2rem;
+  padding: 0 2rem;
+}
+
+/*#second article a {
+  font-size: 1.0rem;
+}*/
+
+/*///////ARTICLE 2 END//////////*/
+
+/*///////ARTICLE 3/////////*/
+
+#third-article img {
+  overflow: hidden;
+  width: 340px;
+  height: 340px;
+  margin-top: 5rem;
+}
+
+#third-article p {
+  font-size: 1.2rem;
+  padding: 0 2rem;
+}
+
+/*///////ARTICLE 3 END//////////*/
+
 /*//////////JOIN//////////*/
 #join button {
     border: none;
@@ -160,6 +196,10 @@ p.cost {
     background-color: #ececec;
     height: 3rem;
     width: 89%;
+}
+
+#join h2 {
+  margin-top: 7rem;
 }
 /*//////////JOIN END//////////*/
 
