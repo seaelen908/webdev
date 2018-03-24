@@ -78,6 +78,10 @@ header h2 {
   margin-top: -6.9rem;
   font-size: 1rem;  
 }
+#header-text p {
+  display: none;
+}
+
 /*//////////HEADER END//////////*/
 
 /*//////////QUOTE//////////*/
@@ -209,7 +213,184 @@ p.cost {
 }
 
 #join h2 {
-  margin-top: 7rem;
+  margin-top: 3rem;
 }
 /*//////////JOIN END//////////*/
 
+/*////////CONTACTS////////////*/
+
+#contacts img {
+  width: 100%;
+}
+
+#contacts .wrapper {
+  display: block;
+  width: 80%;
+  margin: 1.5rem auto;
+}
+
+#contacts .wrapper p {
+  text-align: left;
+  font-size: 2rem;
+}
+
+/*///////CONTACTS END/////////*/
+
+@media (min-width: 768px) {
+  header {
+      height: 75vh;
+      background-position: 100% 50%;
+      background-size: 80%;
+      background-repeat: no-repeat;
+      animation-name: transparency;
+      animation-duration: 8s;
+  }
+  
+  @keyframes transparency {
+    from {opacity:0;}
+    to {opacity:1;}
+  }
+  
+  header h1 {
+    color: #000;
+    text-align: left;
+    animation-name: left-transparent;
+    animation-duration: 3s;
+  }
+  
+  @keyframes left-transparent {
+    from {
+      margin-left: -1000px;
+      opacity: 0;
+    }
+    to {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
+  
+  header h2 {
+    animation-name: from-top;
+    animation-duration: 2s;
+  }
+  
+  @keyframes from-top {
+    from {
+      margin-top: -1000px;
+    }
+    to {
+      margin-top: -6.9rem;
+    }
+  }
+  /*///////HEADER////////*/
+
+  #header-text p {
+    display: block;
+    margin-top: 5rem;
+    margin-left: -1.3rem;
+  }
+
+  /*//////QUOTE/////////*/
+
+  #quote h2 {
+    margin: 0 25%;
+    text-align: center;
+  }
+
+  /*////ARTICLE 1 + VIDEO//*/
+  #first-article {
+    padding: 0;
+  }
+  #first-article img {
+    width: 50%;
+    float: left;
+  }
+  #first-article p {
+    width: 35%;
+    text-align: left;
+    margin-left: 3rem;
+  } 
+  #first-article a {
+    float: left;
+    margin-left: 4.8rem;    
+  }
+
+  #video {
+    width: 60%;
+    margin-top: -33rem;
+    float: right;
+    padding: 0;
+  }
+  
+  /*/////ARTICLE 2/////*/
+  .img-right {
+    padding: 0;
+  }
+  #second-article {
+    padding: 0;
+  }
+  
+  #second-article img {
+    width: 65%;
+    float: right;
+    margin: 0;
+  } 
+  #second-article h2 {
+    text-align: left;
+    margin-top: -22rem;
+    margin-left: 2rem;
+  }
+  #second-article p {
+    text-align: left;
+    margin-top: -16rem;
+    margin-left: 2rem;
+    width: 30%;
+    padding: 0;
+  } 
+  #second-article a {
+    float: left;
+    margin-top: -5rem;
+    margin-left: 2rem;
+  }
+  /*///ARTICLE 2 END/////*/
+
+  /*///ARTICLE 3////////*/
+  #third-article img {
+    float: left;
+  }
+  #third-article h2 {
+    float: right;
+    margin-top: -12rem;   
+  }
+  #third-article p {
+    float: right;
+    margin-top: -8rem;
+    width: 30%;
+  }
+  /*///ARTICLE 3 END/////*/
+
+  /*///contacts/////*/
+
+  #contacts {
+    padding: 0;
+  }
+  #contacts img {
+    width: 50%;
+    float: left;
+  } 
+  #contacts h3 {
+    margin-top: -21rem;
+    margin-left: 16rem;
+  }
+  #contacts .wrapper {
+    float: right;
+    width: 42%;
+    margin-top: -18rem;
+  }
+  #contacts a {
+    float: right;
+    margin-top: -5rem;
+    margin-right: 21rem;
+  }
+  /*///contacts end/////*/ 
+}
