@@ -1,0 +1,211 @@
+.upper {
+  text-transform: uppercase;
+}
+
+.grey {
+  color: #B5B1B1;
+}
+ 
+.blue {
+  color:#2b6a98;
+}
+
+.line-through {
+  text-decoration-line: line-through;  
+}
+
+h1, h2, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 52px;
+}
+
+h2 {
+  font-size: 35px;
+  letter-spacing: -1.8px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 10px;
+  letter-spacing: 0.2rem;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;  
+  color: rgb(124, 122, 122);
+  margin-top: 3rem;
+  font-size: 12px;
+}
+
+#section-01 img, #section-02 img {
+  width: 97%;
+}
+
+.line {
+  border-top: 2px solid #2b6a98;
+  margin-top: 5rem;
+}
+ 
+/*//////header//////*/
+.icon {
+  color: #FFFFFF;
+  font-size: 5.5rem;
+} 
+
+header {
+  background-image: url('../img/blue.jpg');
+  background-size: cover;
+  height: 90vh;
+  /*background-position: 50% 50%;*/
+  margin-bottom: 8rem;   
+}
+header h1 {
+  color: #FFFFFF;
+}
+#headers-wrapper {
+  margin-top: 18rem;
+} 
+
+header h1 {
+  font-size: 49px;
+  letter-spacing: 0.4rem;
+}
+
+header p {
+  font-size: 16px;
+  color: #c3c3c3;
+}  
+
+#headers-wrapper p:nth-child(1) {
+  font-size: 11px;
+  letter-spacing: 0.7rem;
+}
+  
+/*//////header end//////*/
+
+/*/////  01 ////////*/
+
+#section-01 img {
+  margin-left: 3rem;
+  height: 360px;
+}
+
+#section-01 .top-h2, #section-02 .top-h2, #section-03 .top-h2 {
+  margin-top: -1rem;
+}
+#section-01 {
+  margin-bottom: 14rem;
+}
+  
+/*///// 01 end /////*/
+
+/*////// 02 ////////*/
+
+#section-02 img {
+  height: 360px;
+  margin-left: -2rem;
+}
+
+#section-02 h3 {
+  text-align: right;
+}
+ 
+#section-02 {
+  margin-bottom: 18rem;
+}
+
+/*//// 02 end //////*/
+
+/*///// 03 ////////*/
+
+.underline {
+  text-decoration-line: underline;
+  text-decoration-color: #2b6a98;
+  text-decoration-style: solid;
+}
+
+#section-03 {
+  margin-bottom: 8rem;
+}
+
+/*///// 03 end//////*/
+
+/*///// photo ////*/
+
+#photo-01 img, #photo-03 img {
+  width: 295px;
+  height: 230px;
+}
+
+#photo-01, #photo-02, #photo-03 {
+  margin-bottom: 2rem;
+}
+
+#photo-02-1 img, #photo-04-2 img {
+  width: 224px;
+  height: 230px;
+}
+
+#photo-02-2 img, #photo-04-1 img {
+  width: 372px;
+  height: 230px;
+}
+
+#photo-04 {
+  margin-bottom: 15rem;
+}
+/*//// photo end ////*/
+
+/*//// text //////*/
+
+#text p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#text {
+  margin-bottom: 16rem;
+}
+
+/*/// contacts ////*/
+
+#contacts p {
+  font-size: 14px;
+}
+#contacts a {
+  font-weight: bold;
+}
+#contacts button {
+  background-color: #FFFFFF;
+  height: 4.5rem;
+  width: 20rem;
+  margin-top: 1.3rem; 
+} 
+#e-mail, #tel {
+  margin-top: 2rem;
+}
+
+/*footer*/
+
+footer {
+  background-image: url('../img/blue.jpg');
+  height: 30vh;
+  margin-top: 12rem;
+  background-size: cover;
+}
+
+footer p {
+  font-size: 16px;
+  color: #c3c3c3;
+  margin-top: -1rem;
+}
+
+#footer-wrapper {
+  margin-top: 5rem;
+  display: block;
+}
+/*//// footer end ///*/ 
