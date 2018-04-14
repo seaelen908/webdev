@@ -5,17 +5,25 @@
 .grey {
   color: #B5B1B1;
 }
- 
+.light-grey {
+  color: #C9C4C4;
+} 
 .blue {
   color:#2b6a98;
 }
 
-.line-through {
-  text-decoration-line: line-through;  
+h1, h2 {
+  font-family: 'Rozha One', serif;
 }
 
-h1, h2, h4 {
-  font-family: 'Roboto', sans-serif;
+h1 {
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 34px;
+  letter-spacing: -2.5px;
+  font-weight: 100;
 }
 
 h3 {
@@ -23,20 +31,14 @@ h3 {
   font-size: 52px;
 }
 
-h2 {
-  font-size: 35px;
-  letter-spacing: -1.8px;
-  font-weight: bold;
-}
-
 h4 {
-  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
   letter-spacing: 0.2rem;
 }
 
-p {
-  font-family: 'Roboto Condensed', sans-serif;  
-  color: rgb(124, 122, 122);
+p { 
+  font-family: 'Roboto', sans-serif;  
   margin-top: 3rem;
   font-size: 12px;
 }
@@ -49,32 +51,37 @@ p {
   border-top: 2px solid #2b6a98;
   margin-top: 5rem;
 }
- 
+
+ a:hover {
+  text-decoration: none;
+}
 /*//////header//////*/
+
 .icon {
   color: #FFFFFF;
   font-size: 5.5rem;
+  margin-top: 3rem;
 } 
 
 header {
   background-image: url('../img/blue.jpg');
   background-size: cover;
   height: 90vh;
-  /*background-position: 50% 50%;*/
-  margin-bottom: 8rem;   
+  margin-bottom: 11rem;   
+}
+#head {
+  min-height: 78rem;
 }
 header h1 {
   color: #FFFFFF;
+  font-size: 55px;
 }
+
 #headers-wrapper {
-  margin-top: 18rem;
+  margin-top: 17rem;
+  padding: 0 16rem;
 } 
-
-header h1 {
-  font-size: 49px;
-  letter-spacing: 0.4rem;
-}
-
+ 
 header p {
   font-size: 16px;
   color: #c3c3c3;
@@ -95,10 +102,10 @@ header p {
 }
 
 #section-01 .top-h2, #section-02 .top-h2, #section-03 .top-h2 {
-  margin-top: -1rem;
+  margin-top: -1.4rem;
 }
 #section-01 {
-  margin-bottom: 14rem;
+  margin-bottom: 17rem;
 }
   
 /*///// 01 end /////*/
@@ -122,42 +129,69 @@ header p {
 
 /*///// 03 ////////*/
 
-.underline {
-  text-decoration-line: underline;
-  text-decoration-color: #2b6a98;
-  text-decoration-style: solid;
+#section-03 .h3-hr {  
+  display: block;
+  margin: 0 auto;
+  width: 6%;
+}
+#section-03 .h3-hr hr {  
+  border-bottom: 2px solid #2b6a98;
 }
 
 #section-03 {
   margin-bottom: 8rem;
 }
+#h2-hr h2:nth-child(2) {
+  padding: 0 29rem 0 36rem;
+}
+#h2-hr hr {  
+  border-bottom: 2px solid #2b6a98;
+  margin: -3rem 37rem 0;
+  width: 31%;
+}
+
+#h2-hr {
+  display: block;
+  /*margin: -3rem 35rem 0;
+  /*width: 35.5%;
+  margin-left: 42rem;*/
+}
+/*.line-through {
+  border-top: 2px solid #2b6a98;
+  margin: -3rem 35rem 0;
+  /*width: 35.5%;
+}*/
 
 /*///// 03 end//////*/
 
 /*///// photo ////*/
-
-#photo-01 img, #photo-03 img {
-  width: 295px;
-  height: 230px;
-}
-
 #photo-01, #photo-02, #photo-03 {
-  margin-bottom: 2rem;
+  margin-bottom: 2.3rem;
 }
 
-#photo-02-1 img, #photo-04-2 img {
-  width: 224px;
-  height: 230px;
+.img-left img {
+  float: left;
+  margin-left: 9.5rem;
 }
 
-#photo-02-2 img, #photo-04-1 img {
-  width: 372px;
-  height: 230px;
+.img-right img {
+  float: right;
+  margin-right: 9.5rem;
 }
 
 #photo-04 {
   margin-bottom: 15rem;
 }
+
+/*.img-left {
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: 2s;
+}
+
+.img-left:hover {
+  background: #2b6a98;
+}*/
 /*//// photo end ////*/
 
 /*//// text //////*/
@@ -165,6 +199,7 @@ header p {
 #text p {
   font-size: 20px;
   font-weight: bold;
+  padding: 0 15rem;
 }
 
 #text {
@@ -182,18 +217,32 @@ header p {
 #contacts button {
   background-color: #FFFFFF;
   height: 4.5rem;
-  width: 20rem;
-  margin-top: 1.3rem; 
+  width: 22rem;
+  margin-top: 1.3rem;
+  border: 1px solid #C9C4C4; 
+}
+
+form p {
+  width: 72%;
+  text-align: center;
+  margin-top: 0.5rem;
 } 
 #e-mail, #tel {
   margin-top: 2rem;
 }
 
+.i-right {
+  margin-right: 1em;
+}
+
 /*footer*/
 
+#footer-wrapper {
+  min-height: 24rem;
+  margin-top: 12rem;
+}
 footer {
   background-image: url('../img/blue.jpg');
-  height: 30vh;
   margin-top: 12rem;
   background-size: cover;
 }
@@ -203,9 +252,7 @@ footer p {
   color: #c3c3c3;
   margin-top: -1rem;
 }
-
-#footer-wrapper {
-  margin-top: 5rem;
-  display: block;
+#footer-wrapper .top-i-p {
+  margin-top: 8rem;
 }
 /*//// footer end ///*/ 
