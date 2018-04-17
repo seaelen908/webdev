@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .upper {
   text-transform: uppercase;
 }
@@ -12,7 +16,7 @@
   color:#2b6a98;
 }
 
-h1, h2 {
+h1, h2, {
   font-family: 'Rozha One', serif;
 }
 
@@ -36,7 +40,8 @@ h4 {
   font-size: 12px;
   letter-spacing: 0.2rem;
 }
-
+ 
+ 
 p { 
   font-family: 'Roboto', sans-serif;  
   margin-top: 3rem;
@@ -166,32 +171,59 @@ header p {
 
 /*///// photo ////*/
 #photo-01, #photo-02, #photo-03 {
-  margin-bottom: 2.3rem;
+  margin-bottom: 1rem;
 }
 
 .img-left img {
   float: left;
-  margin-left: 9.5rem;
+  margin: 1rem 9.5rem 1rem;
+  z-index: 1; 
 }
 
 .img-right img {
   float: right;
-  margin-right: 9.5rem;
+  margin: 1rem 9.5rem 1rem;
+  z-index: 1;
 }
 
 #photo-04 {
   margin-bottom: 15rem;
 }
 
-/*.img-left {
+.transition-text {
+  opacity: 0;
   transition-property: background;
   transition-duration: 1s;
-  transition-timing-function: 2s;
+  transition-timing-function: linear;
+  position: relative;
+  /*vertical-align: text-bottom;*/
+}
+.wrapper-transition {
+  display: block;
 }
 
-.img-left:hover {
+.wrapper-transition h4 {
+  color: #FFFFFF;
+  font-size: 20px;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+
+.wrapper-transition h5 {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-size: 12px; 
+  vertical-align: middle;
+}
+ 
+.transition-text:hover {
   background: #2b6a98;
-}*/
+  opacity: 1;
+  z-index: 2;
+  width: 360px;
+  height: 270px;
+  margin: 1rem 9.5rem 1rem;
+}
 /*//// photo end ////*/
 
 /*//// text //////*/
